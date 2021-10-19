@@ -1,0 +1,92 @@
+body {
+  background-color: #222f3e;
+  bottom:0px;
+  color:white;
+}
+.raleway {
+  font-family:Raleway, sans-serif;
+}
+.lato {
+  font-family:Lato, sans-serif;
+}
+.navcolor {
+  background-color:black;
+}
+@font-face {
+ font-family: "Hand";
+ src: url("/public/fonts/Hand.ttf");
+}
+.navbar-brand {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.nav-item {
+  font-family:Raleway;
+  font-size:20px;
+  padding-right:2rem;
+  text-shadow: 1px 1px 2px black;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.dropdown-item {
+  text-shadow: none;
+}
+#menu img {
+  filter:invert(1);
+}
+#footer img {
+  filter:invert(1);
+}
+.reservation {
+  margin-bottom:10px;
+  height:250px;
+  width:100%;
+  opacity: 1;
+}
+.reservation:hover {
+  cursor:pointer;
+  opacity:0.9;
+}
+.termine {
+  margin-bottom:10px;
+  height:250px;
+  width:100%;
+  opacity: 0.6;
+  cursor:default;
+}
+.icon {
+  filter:invert(1);
+}
+.fondcolor {
+  background-color:#1e272e;
+}
+.fondcolorcard {
+  background-color:#1e272e;
+  border: 1px solid #bdc3c7 !important;
+}
+.termine:hover {
+  cursor:default;
+  opacity:0.6;
+}
+#avatar_profil {
+  opacity:1;
+  border-radius:50%;
+}
+#avatar_profil:hover {
+  opacity:0.7;
+}
+#avatar_users {
+  opacity:1;
+  border-radius:50%;
+}
+.zoom {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
